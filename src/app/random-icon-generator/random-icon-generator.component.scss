@@ -1,0 +1,32 @@
+:host {
+  height: 100%;
+  color: #ffff;
+}
+.random-icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #0E7DAF;
+  .random-icon-card-title {
+    margin-bottom: 2rem;
+  }
+  .random-icon-card-button {
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    background-color: #ffff;
+    color: #0E7DAF;
+    font-weight: 600;
+    &:hover {
+      background: darken(#0E7DAF, 15%);
+      color: #ffff;
+    }
+  }
+  .random-icon-card-icon {
+    font-size: 4rem;
+  }
+}
